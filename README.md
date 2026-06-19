@@ -22,15 +22,15 @@ A Django-based Student Registration Portal developed using Python, Django, HTML,
 
 ### Home Page
 
-![Home Page](ProjectScreenshots/Home_Page.jpg)
+![Home Page](ProjectScreenshots/Home_Page.JPG)
 
 ### Display Page 1
 
-![Display Page 1](ProjectScreenshots/Display_Page1.jpg)
+![Display Page 1](ProjectScreenshots/Display_Page1.JPG)
 
 ### Display Page 2
 
-![Display Page 2](ProjectScreenshots/Display_Page2.jpg)
+![Display Page 2](ProjectScreenshots/Display_Page2.JPG)
 
 
 

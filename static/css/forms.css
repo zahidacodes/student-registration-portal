@@ -1,0 +1,56 @@
+.outer{
+  
+
+    text-align: center;
+   
+    
+    
+}
+
+h1{
+    background-color: green;
+    color: white;
+    padding: 1%;
+    
+}
+.inner2{
+    background-color: rgb(180, 234, 180);
+    color: green;
+    padding-bottom: 3%;    
+    margin: 2%;
+    
+}
+input[type="submit"] {
+    background-color: green;
+    width: 200px;
+    padding: 12px;
+   
+    border: 0;
+    border-radius: 50vw;
+    font-size: larger;
+     border:1px solid green;
+   
+    color: white;
+    font-family: 'Times New Roman';
+ 
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: white;
+    border-color: green;
+    border:1px solid green;
+    color: green;
+    
+}
+
+.form-label {
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* #id_name, #id_address, #id_branch, #id_ph_number{
+    background-color: transparent;
+    border: 1px solid green;
+    padding: 5px;
+} */

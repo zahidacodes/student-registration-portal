@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT REGISTRATION PORTAL</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1gwV8-z1DPG5uQ3Mm2BH0mlE5dO95Fw99MQ&s">
+     <link rel="stylesheet" href="{% static 'css/forms.css'%}"> 
+</head>
+<body>
+    
+    <div class="outer">
+
+        <div class="inner1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1gwV8-z1DPG5uQ3Mm2BH0mlE5dO95Fw99MQ&s" alt="jmi", height="100vh">
+
+        </div>
+        <div class="inner2">
+            
+            <form action="" method = "POST">
+        <h1>STUDENT REGISTRATION PORTAL</h1>
+        {% csrf_token %}
+        {% for i in form %}
+          <label class="form-label">{{ i.label }}</label> <br> {{i}} <br><br>
+        {% endfor %} <br>
+        <input type="submit" value="REGISTER">
+    </form>
+        </div>
+    </div>
+        
+    
+    
+    
+</body>
+</html>

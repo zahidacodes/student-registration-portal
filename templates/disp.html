@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Student Records</title>
+    <link rel="stylesheet" href="{% static 'css/disp.css'%}"> 
+</head>
+<body>
+    <div class="container">
+    <h1>STUDENT REGISTERED SUCCESSFULLY ✅</h1>
+
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Branch</th>
+                    <th>Ph No</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for i in data %}
+                <tr>
+                    <td>{{i.name}}</td>
+                    <td>{{i.address}}</td>
+                    <td>{{i.branch}}</td>
+                    <td>{{i.ph_number}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+    
+</body>
+</html>
